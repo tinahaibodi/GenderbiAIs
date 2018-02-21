@@ -7,6 +7,8 @@ from gensim.models import KeyedVectors
 class W2VResumeFilter:
     """
   
+# need to add reference to specific word2vec here
+
     """
 
     HD_W2V_PATH = "./word2vec/GoogleNews-vectors-negative300-hard-debiased.bin.gz"
