@@ -13,6 +13,7 @@ class TestDetector(unittest.TestCase):
         self.assertEqual(self.case.get_gender(u"Bob"), u"male")
         self.assertEqual(self.case.get_gender(u"Sally"), u"female")
         self.assertEqual(self.case.get_gender(u"Pauley"), u"andy")
+        
 
     def test_unicode(self):
         self.assertEqual(self.case.get_gender(u"Álfrún"), u"female")
