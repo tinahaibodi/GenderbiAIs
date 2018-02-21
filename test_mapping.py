@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import unittest
-import sexmachine.mapping as m
+import gender.mapping as m
 
 
 class TestMapping(unittest.TestCase):
