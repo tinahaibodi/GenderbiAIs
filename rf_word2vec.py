@@ -6,10 +6,7 @@ from gensim.models import KeyedVectors
 
 class W2VResumeFilter:
     """
-    A machine learning resume filter based on the case study in
-        Al-Otaibi, "A survey of job recommender systems." 2013
-    Extended to produce word vectors using google's word2vec and a debiased word2vec from
-        Bolukbasi, "Man is to computer programmer as woman is to homemaker? ..." 2016.
+  
     """
 
     HD_W2V_PATH = "./word2vec/GoogleNews-vectors-negative300-hard-debiased.bin.gz"
@@ -154,7 +151,7 @@ class W2VResumeFilter:
                 [candidate.append("english") for i in range(int(candidate[4]))]
 
             if int(candidate[6]) != 0:
-                candidate.append("oracle")
+                candidate.append("programming")
                 candidate.append("database")
 
             return candidate
