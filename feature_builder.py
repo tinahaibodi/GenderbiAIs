@@ -9,7 +9,7 @@ def has_masters(resume_data):
 def has_bachelors(resume_data):
 	if resume_data["MSc"] == 0:
 		return 1 # since a bachelors is required in the paper
-	return resume_data["BSc"]
+	return resume_data["BSc or BEng"]
 
 def is_in_tech_major(resume_data):
 	return resume_data["tech_major"]
@@ -23,8 +23,8 @@ def has_work_experience(resume_data):
 def has_english_skills(resume_data):
 	return resume_data["english_skills"]
 
-def has_oracle_skills(resume_data):
-	return resume_data['oracle_skills']
+def has_programming_skills(resume_data):
+	return resume_data['programming_skills']
 
 def get_gender(resume_data):
 	return resume_data['gender']
@@ -44,8 +44,8 @@ def construct_candidate_skills(resume_data):
 		worked_in_tech = has_worked_in_tech(resume_data)
 		work_experience = has_work_experience(resume_data)
 		english_skills = has_english_skills(resume_data)
-		oracle_skills = has_oracle_skills(resume_data)
-		candidate_info = [masters,bachelors, tech_major, worked_in_tech, work_experience,english_skills, oracle_skills, get_gender(resume_data)]
+		programming_skills = has_programming_skills(resume_data)
+		candidate_info = [masters,bachelors, tech_major, worked_in_tech, work_experience,english_skills, programming_skills, get_gender(resume_data)]
 		return candidate_info + get_personal_info(resume_data) + get_technical_background(resume_data)
 
 all_candidates = scrape_from_all_pages()
