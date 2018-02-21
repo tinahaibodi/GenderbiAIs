@@ -25,6 +25,8 @@ fnames_method = ["Baseline Cosine",
 male = "male"
 female = "female"
 
+# need to still add variables for people who are transgendered??? etc???
+
 def compute_results(top_n_results, top_n_list):
 
     # Loop through the top_n to compute
