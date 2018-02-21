@@ -14,7 +14,7 @@ Follow these instructions to get you a copy of the project up and running on you
 
 ### Installing
 
-`pip install <gender-bias-AI>`
+`pip install <gender-biAIs>`
 
 ### Running the code
 
