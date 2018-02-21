@@ -1,6 +1,8 @@
 from scrape_data import scrape_from_all_pages
 import numpy as np
 
+#these are the different variables that a recruiter looks for in an application
+
 def has_masters(resume_data):
 	return resume_data["MSc"]
 
