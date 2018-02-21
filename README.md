@@ -1,12 +1,12 @@
-# Removing Gender Bias
+# Removing Gender Bias from Candidate Application System
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes
+Follow these instructions to get you a copy of the project up and running on your local machine for development and testing purposes
 
 ### Clone repository
 
-`git clone git@github.com:MidoAssran/removing_gender_bias.git`
+`git clone git@github.com:tinahaibodi/gender-bias-AI.git`
 
 ### Prerequisites
 
@@ -14,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-`pip install <package_name>`
+`pip install <gender-bias-AI>`
 
 ### Running the code
 
