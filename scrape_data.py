@@ -8,7 +8,7 @@ import random
 import urllib2
 import unicodedata
 
-base_url = "https://www.indeed.com/resumes?q=data+science" 
+base_url = "https://ca.indeed.com/jobs?q=software+engineer&l=" 
 NUMBER_OF_LISTINGS = 10000 # modify this value to get more data
 
 male_keywords = ['He', 'he', 'his', 'man', 'men', 'spokesman', 'himself', 'son',
