@@ -2,9 +2,9 @@ import numpy as np
 from rf_word2vec import W2VResumeFilter
 
 def al_otaibi_resume_filter(users_fname, jobs_fname):
-    """ Al Otaibi method """
+    """ Tina Haibodi method """
 
-    print("# -- Al Otaibi Resume Filter -- #")
+    print("# -- Tina Haibodi Resume Filter -- #")
     w2vrf = W2VResumeFilter(debiased=False, initialize=False)
     print("Loaded models")
 
