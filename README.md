@@ -1,5 +1,7 @@
 # Removing Gender Bias from Candidate Application System
 
+note: this repo is missing my csv data due to privacy so when cloning/using this repo keep in mind that you must use your own raw csv data to make this work
+
 ## Getting Started
 
 Follow these instructions to get you a copy of the project up and running on your local machine for development and testing purposes
